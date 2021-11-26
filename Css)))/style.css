@@ -1,0 +1,67 @@
+:root{
+    --color-gray:rgb(240, 240, 240);
+    --color-orange:rgb(255, 58, 0);
+    --color-blue:rgb(25, 209, 255);
+    
+}
+
+
+
+.container{
+    margin: 20px auto;
+}
+
+
+h1{
+    text-transform: uppercase;
+    color: var(--color-orange);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+h3{
+    text-transform: uppercase;
+    color: var(--color-blue);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+p{
+    text-transform: uppercase;
+    color: var(--color-black);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.photo{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+
+.photo{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(108, 187, 240, 0.835), 0 6px 20px 0 rgba(221, 19, 19, 0.19);
+}
+
+
+.col-sm{
+    display: inline;
+    background-color: var(--color-gray);
+    margin-left: 10px;
+}
+
+
+.icons:hover, .icons:active{
+color:var(--color-orange);
+}
+
+
+.icons{
+    margin: 10px;
+    
+}
